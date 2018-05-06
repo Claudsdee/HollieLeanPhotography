@@ -1,0 +1,106 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1em;
+    background-color: rgb(213, 197, 200);
+    /* color: #486068; */
+    color: #292E37;
+}
+
+h1 {
+    font-family: 'Unica One', cursive;
+    font-size: 2em;
+}
+
+.titles {
+    margin: 1rem;
+}
+
+
+/* Section Specific CSS */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: solid black 2px; */
+    z-index: 5;
+}
+
+.burger {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.line {
+    width: 35px;
+    height: 5px;
+    background-color: #292E37;
+    margin: 6px;
+}
+
+#dropdownContent {
+    display: none;
+    z-index: 5;
+    position: absolute;
+    left: 1%;
+    font-size: 1.5em;
+    background: rgba(213, 197, 200, 0.5);
+    line-height: 2em;
+    padding: 0 1% 1% 1%;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid grey 2px; */
+    height: 70vh
+}
+
+#name {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.5em;
+    height: 40vh;
+    border: rgb(249, 244, 247) solid 1px;
+    z-index: 1;
+}
+
+#logo > #slideshow {
+    /* display: flex;
+    align-content: center; */
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.slides {
+    display: block;
+}
+
+.slides {
+    transition: opacity 1s ease-in;
+}
+
+img + img { 
+    opacity: 0; 
+} 
+
+
+#quote {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* footer {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+} */
