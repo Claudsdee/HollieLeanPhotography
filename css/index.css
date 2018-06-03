@@ -99,8 +99,8 @@ img + img {
     font-size: 1.5em;
 }
 
-/* footer {
+footer {
     display: flex;
     flex-direction: column;
     align-content: space-around;
-} */
+}
